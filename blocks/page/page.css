@@ -1,6 +1,8 @@
+
 .page {
   width: 320px;
-  height: 1000px;
+  font-family: 'Inter', Arial, sans-serif;
+  color: #fff;
   background-color: #2A2C2F;
 }
 /* @media all and (min-width: 320px) {
