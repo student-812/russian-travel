@@ -1,0 +1,11 @@
+.places {
+  display: grid;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  grid-template-columns: repeat(auto-fill, auto);
+  grid-template-rows: repeat(auto-fill, auto);
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
