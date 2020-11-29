@@ -7,10 +7,27 @@
   box-sizing: border-box;
 }
 
+/* 320 200 */
 @media screen and (min-width: 1024px) {
   .lead__image {
-    width: 928px;
-    height: 580px;
+    width: calc(100vw/2 + (928px - 100vw/2));
+    height: calc(62.5vw/2 + (580px - 62.5vw/2));
   }
 }
 
+@media screen and (min-width: 1280px) {
+  .lead__image {
+    /* width: calc(100vw/2 + (984px - 100vw/2));
+    height: calc(62.5vw/2 + (615px - 62.5vw / 2)); */
+    width: calc(100vw/2 + 344px);
+    height: calc(62.5vw/2 + 215px);
+  }
+}
+@media screen and (min-width: 1281px) {
+  .lead__image {
+    /* width: calc(100vw/2 + (984px - 100vw/2));
+    height: calc(62.5vw/2 + (615px - 62.5vw / 2)); */
+    width: 100%;
+    height: calc(62.5vw/2 + 215px);
+  }
+}

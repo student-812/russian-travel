@@ -5,9 +5,25 @@
 
 @media screen and (min-width: 768px) {
   .place__image {
-    margin-left: 24px;
+    
     width: calc(320px + 20px);
     height: calc(320px + 20px);
+    grid-area: image;
+  }
+}
+
+@media screen and (min-width: 1028px) {
+  .place__image {
+    width: 440px;
+    height: 440px;
+    grid-area: image;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .place__image {
+    width: 460px;
+    height: 460px;
     grid-area: image;
   }
 }

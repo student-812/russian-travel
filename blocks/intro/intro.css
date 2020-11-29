@@ -14,3 +14,10 @@
     padding: 0 24px 0 24px;
   }
 }
+
+@media screen and (min-width: 1280px) {
+  .intro {
+    margin-top: 92px;
+    padding: 0 418px 0 124px;
+  }
+}
