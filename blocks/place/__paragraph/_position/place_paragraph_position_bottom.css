@@ -1,0 +1,6 @@
+@media screen and (min-width:768px) {
+  .paragraph_position_bottom {
+    margin: 0 28px 25px 24px;
+    grid-area: paragraph_position_bottom;
+  }
+}

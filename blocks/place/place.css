@@ -4,5 +4,9 @@
     grid-template-columns: repeat(2, auto);
     /* grid-template-rows: repeat(auto-fill, auto); */
     justify-content: center;
+    grid-template-areas: 
+    "title website"
+    "image paragraph_position_top"
+    "image paragraph_position_bottom";
   }
 }
