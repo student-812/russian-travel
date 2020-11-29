@@ -13,11 +13,22 @@
 
 @media screen and (min-width:768px) {
   .places {
-    margin-top: 64px;
+    margin-top: 88px;
     grid-template-columns: repeat(auto-fill, auto);
     grid-template-rows: repeat(auto-fill, auto);
     justify-content: center;
     align-items: center;
-    gap: 24px;
+    gap: 72px;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .places {
+    margin-top: 96px;
+    grid-template-columns: repeat(auto-fill, auto);
+    grid-template-rows: repeat(auto-fill, auto);
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
   }
 }

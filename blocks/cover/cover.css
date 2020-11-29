@@ -1,6 +1,6 @@
 .cover {
   position: relative;
-  margin-top: 41px;
+  margin-top: 66px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -25,4 +25,16 @@
 
 .cover:hover::before { 
   opacity: 0.8;
+}
+
+@media screen and (min-width: 786px) {
+  .cover {
+    margin-top: 90px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .cover {
+    margin-top: 92px;
+  }
 }

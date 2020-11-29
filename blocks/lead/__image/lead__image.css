@@ -4,6 +4,13 @@
   background-image: url("../../../sprint-3-images/lead-polka.jpg");
   background-size: cover;
   background-position: center;
-  
+  box-sizing: border-box;
+}
+
+@media screen and (min-width: 1024px) {
+  .lead__image {
+    width: 928px;
+    height: 580px;
+  }
 }
 

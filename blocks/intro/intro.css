@@ -7,3 +7,10 @@
     margin-top: 88px;
   }
 }
+
+@media screen and (min-width: 1024px) {
+  .intro {
+    margin-top: 92px;
+    padding: 0 24px 0 24px;
+  }
+}
