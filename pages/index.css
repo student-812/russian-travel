@@ -1,5 +1,10 @@
 @import url("../vendor/normalize.css");
 @import url("../blocks/page/page.css");
+@import url('https://rsms.me/inter/inter.css');
+.page { font-family: 'Inter', sans-serif; }
+@supports (font-variation-settings: normal) {
+  .page { font-family: 'Inter var', sans-serif; }
+}
 @import url("../blocks/link/link.css");
 @import url("../blocks/logo/logo.css");
 @import url("../blocks/header/header.css");
