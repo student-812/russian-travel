@@ -19,7 +19,7 @@
 
 @media screen and (min-width:1280px) {
   .photo-grid__image {
-    width: calc(45vw/2 - 4px);
-    height: calc(37.5vw/2 - 27px);
+    width: 284px;
+    height: 213px;
   }
 }
