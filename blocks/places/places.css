@@ -22,7 +22,7 @@
   }
 }
 
-@media screen and (min-width:768px) {
+@media screen and (min-width:1028px) {
   .places {
     margin-top: 96px;
     grid-template-columns: repeat(auto-fill, auto);
