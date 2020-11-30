@@ -1,7 +1,14 @@
+.place__website::nth-child(3) {
+  display: none;
+}
+
 @media screen and (min-width: 768px) {
   .place__website {
     grid-area: website;
     align-self: end;
     margin-bottom: 48px;
   }
+  .place__website::nth-child(3) {
+        display: block;
+      }
 }
