@@ -6,6 +6,6 @@
 
 @media screen and (min-width:768px) {
   .intro__list {
-    margin-left: 24px;
+    margin: 0;
   }
 }

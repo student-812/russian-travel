@@ -17,13 +17,15 @@
 
 @media screen and (min-width: 1024px) {
   .lead__caption {
-    margin-left: 0em;
+    min-width:928px;
+    margin-left: auto;
     margin-right: auto;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .lead__caption {
-    margin-left: 10em;
+    min-width:984px;
+    margin-left: auto;
   }
 }

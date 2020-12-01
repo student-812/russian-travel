@@ -1,9 +1,10 @@
 .cover__link {
   position: relative;
-  max-width: 1184px;
-  min-height: 740px;
   margin-top: 66px;
+  max-width: 1280px; 
+  max-height: 740px;
   width: 100vw;
+  /* height: 62.5vw; */
   text-decoration: none;
   display: flex;
   flex-direction: column;
@@ -34,4 +35,8 @@
     margin-left: auto;
     margin-right: auto;
   }
+}
+
+@media screen and (min-width: 1280px) {
+  
 }
