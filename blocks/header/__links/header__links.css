@@ -1,19 +1,22 @@
 .header__links {
-  position: absolute;
-  top: 30px;
-  right: 16px;
+  display: flex;
+  align-self: flex-start;
+  margin-top: 30px;
+  margin-right: 16px;
+  padding-left: 0;
+  list-style: none;
 }
 
 @media screen and (min-width: 768px) {
   .header__links {
-    top: 46px;
-    right: 24px;
+    margin-top: 46px;
+    margin-right: 24px;
   }
 }
 
 @media screen and (min-width: 1024px) {
   .header__links {
-    top: 46px;
-    right: 48px;
+    margin-top: 46px;
+    margin-right: 48px;
   }
 }

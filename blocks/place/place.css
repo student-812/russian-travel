@@ -15,28 +15,6 @@
 @media screen and (min-width:1024px) {
   .place {
     grid-template-columns: 440px 423px;
-    /* grid-template-rows: repeat(auto-fill, auto); */
-    justify-content: center;
-    grid-template-areas: 
-    "title website"
-    "image paragraph_position_top"
-    "image paragraph_position_bottom";
-    column-gap: 24px;
     padding: 0 48px 0 48px;
   }
 }
-
-@media screen and (min-width:1280px) {
-  .place {
-    grid-template-columns: 460px 473px;
-    /* grid-template-rows: repeat(auto-fill, auto); */
-    justify-content: center;
-    grid-template-areas: 
-    "title website"
-    "image paragraph_position_top"
-    "image paragraph_position_bottom";
-    column-gap: 24px;
-    padding: 0 48px 0 48px;
-  }
-}
-

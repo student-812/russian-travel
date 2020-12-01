@@ -10,7 +10,6 @@
   .logo {
     width: 176px;
     height: 52px;
-    position: relative;
     top: 1.75em;
     left: 1.5em;
   }
@@ -18,9 +17,6 @@
 
 @media screen and (min-width:1024px) {
   .logo {
-    width: 176px;
-    height: 52px;
-    position: relative;
     top: 28px;
     left: 48px;
   }

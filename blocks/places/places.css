@@ -4,8 +4,8 @@
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  grid-template-columns: repeat(auto-fill, auto);
-  grid-template-rows: repeat(auto-fill, auto);
+  grid-template-columns: repeat(1, auto);
+  grid-template-rows: repeat(5, auto);
   justify-content: center;
   align-items: center;
   gap: 24px;
@@ -14,10 +14,6 @@
 @media screen and (min-width:768px) {
   .places {
     margin-top: 88px;
-    grid-template-columns: repeat(auto-fill, auto);
-    grid-template-rows: repeat(auto-fill, auto);
-    justify-content: center;
-    align-items: center;
     gap: 72px;
   }
 }
@@ -25,10 +21,6 @@
 @media screen and (min-width:1028px) {
   .places {
     margin-top: 96px;
-    grid-template-columns: repeat(auto-fill, auto);
-    grid-template-rows: repeat(auto-fill, auto);
-    justify-content: center;
-    align-items: center;
     gap: 80px;
   }
 }

@@ -1,10 +1,6 @@
 .lead__image {
   width: 100vw;
   height: 62.5vw;
-  background-image: url("../../../images/lead-polka.jpg");
-  background-size: cover;
-  background-position: center;
-  box-sizing: border-box;
 }
 
 /* 320 200 */
