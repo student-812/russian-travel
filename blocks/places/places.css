@@ -13,7 +13,7 @@
 
 @media screen and (min-width:768px) {
   .places {
-    margin-top: 108px;
+    margin-top: 109px;
     grid-template-rows: minmax(46px, auto-fill) repeat(4, auto);
     row-gap: 43px;
   }
@@ -23,5 +23,11 @@
   .places {
     margin-top: 55px;
     gap: 35px;
+  }
+}
+
+@media screen and (min-width:1280px) {
+  .places {
+    margin-top: 56px;
   }
 }

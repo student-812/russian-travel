@@ -24,3 +24,9 @@
     row-gap: 27px;
   }
 }
+
+@media screen and (min-width: 1280px) {
+  .place__paragraph {
+    margin-left: 7px;
+  }
+}

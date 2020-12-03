@@ -5,9 +5,3 @@
   align-items: center;
 }
 
-@media screen and (min-width: 1024px) {
-  .lead {
-    margin-left: 48px;
-    margin-right: 48px;
-  }
-}

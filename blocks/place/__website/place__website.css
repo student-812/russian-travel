@@ -22,3 +22,8 @@
     margin-bottom: 44px;
   }
 }
+@media screen and (min-width: 1280px) {
+  .place__website {
+    margin-left: 7px;
+  }
+}
