@@ -1,4 +1,7 @@
 .lead__image {
+  max-width: 928px;
+  max-height: 580px;
+  margin: 0 auto;
   width: 100vw;
   height: 62.5vw;
 }
@@ -6,6 +9,8 @@
 /* 320 200 */
 @media screen and (min-width: 1024px) {
   .lead__image {
+    max-width: 984px;
+    max-height: 615px;
     width: calc(100vw/2 + (928px - 100vw/2));
     height: calc(62.5vw/2 + (580px - 62.5vw/2));
   }
@@ -13,7 +18,7 @@
 
 @media screen and (min-width: 1280px) {
   .lead__image {
-    width: 984px;
-    height: 615px;
+    min-width: 984px;
+    min-height: 615px;
   }
 }

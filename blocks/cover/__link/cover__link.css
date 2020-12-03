@@ -1,10 +1,11 @@
 .cover__link {
   position: relative;
+  margin:auto;
   margin-top: 66px;
-  max-width: 1280px; 
-  max-height: 740px;
+  max-width: 1184px; 
+  min-height: 200px;
   width: 100vw;
-  /* height: 62.5vw; */
+  height: 62.5vw;
   text-decoration: none;
   display: flex;
   flex-direction: column;
@@ -32,11 +33,12 @@
 @media screen and (min-width: 1028px){
   .cover__link {
     margin-top: 92px;
-    margin-left: auto;
-    margin-right: auto;
   }
 }
 
 @media screen and (min-width: 1280px) {
-  
+  .cover__link {
+    margin-top: 84px;
+    max-height: 740px;
+  }
 }

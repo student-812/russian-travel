@@ -3,11 +3,12 @@
 }
 
 @media screen and (min-width:768px) {
-  .place__link::before {
-    margin-top: 12px;
-    margin-bottom: 48px;
+  .place__link {
     font-size: 18px;
     line-height: 22px;
+
+  }
+  .place__link::before {
     text-decoration-line: underline;
     display: block;
   }

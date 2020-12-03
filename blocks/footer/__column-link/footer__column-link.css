@@ -11,5 +11,6 @@
     font-size: 16px;
     line-height: 18px;
     margin-right: 18px;
+    align-self: end;
   }
 }

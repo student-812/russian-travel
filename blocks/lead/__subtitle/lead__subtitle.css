@@ -9,9 +9,10 @@
   .lead__subtitle {
     max-width: 640px;
     width:100%;
-    margin-bottom: 56px;
+    margin-bottom: 63px;
     font-size: 30px;
     line-height: 36px;
+    letter-spacing: 1px;
   }
 }
 

@@ -5,10 +5,17 @@
   min-height: 106px;
   position: relative;
   color: #FFFFFF;
+  margin: auto;
 }
 
 @media screen and (min-width: 768px) {
   .header {
     min-height: 128px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .header {
+    width: 1280px;
   }
 }

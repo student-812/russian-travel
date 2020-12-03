@@ -1,6 +1,5 @@
 .page {
   min-width: 320px;
-  
   margin: auto;
   position: relative;
   font-family: "Inter", Arial, sans-serif;
@@ -12,4 +11,5 @@
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   text-rendering: optimizeLegibility; 
+  letter-spacing: 0.5px;
 }

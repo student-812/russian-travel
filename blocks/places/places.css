@@ -1,6 +1,6 @@
 .places {
-  margin-top: 64px;
   display: grid;
+  margin-top: 30px;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -8,19 +8,20 @@
   grid-template-rows: repeat(5, auto);
   justify-content: center;
   align-items: center;
-  gap: 24px;
+  /* row-gap: 49px; */
 }
 
 @media screen and (min-width:768px) {
   .places {
-    margin-top: 88px;
-    gap: 72px;
+    margin-top: 108px;
+    grid-template-rows: minmax(46px, auto-fill) repeat(4, auto);
+    row-gap: 43px;
   }
 }
 
-@media screen and (min-width:1028px) {
+@media screen and (min-width:1024px) {
   .places {
-    margin-top: 96px;
-    gap: 80px;
+    margin-top: 55px;
+    gap: 35px;
   }
 }
