@@ -1,7 +1,7 @@
 .place__image {
   margin-bottom: 4px;
-  width: 100vw;
-  height: 100vw;
+  width: 320px;
+  height: 320px;
   justify-self: center;
 }
 
