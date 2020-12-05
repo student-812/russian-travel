@@ -12,19 +12,20 @@
     margin-bottom: 56px;
     font-size: 30px;
     line-height: 36px;
-    letter-spacing: 1px;
   }
 }
 
 @media screen and (min-width:1024px) {
   .lead__subtitle {
     margin-bottom: 56px;
+    margin-left: 7px;
   }
 }
 
 @media screen and (min-width:1280px) {
   .lead__subtitle {
     margin-bottom: 63px;
+    margin-left: 15px;
   }
 }
 

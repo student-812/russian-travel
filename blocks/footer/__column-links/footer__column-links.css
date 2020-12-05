@@ -13,7 +13,6 @@
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    justify-self: space-between;
     margin-left: 0;
     margin-right: 0;
   }
